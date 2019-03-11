@@ -1,6 +1,8 @@
-import React from 'react'
-//import { Paper, Tabs } from 'material-ui/core'
-export default props=>
-<div>
-  <h2>Footer</h2>
-  </div>
+import React from 'react';
+
+export default props => (
+    
+ <div className="footer">
+  <p>Copyright ©2019 Spreading Care all rights reserved</p>
+</div>
+);

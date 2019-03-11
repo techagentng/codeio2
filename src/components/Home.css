@@ -1,3 +1,47 @@
 body{
     background-color: #e7ecf0;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+}
+img{
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+img2{
+    object-fit: cover;
+    width: 100%;
+}
+.styleDiv {
+display:flex1;
+margin-top: 50px;
+padding-left: 80px;
+padding-right: 80px;
+padding-bottom: 80px;
+justify-content: center;
+width: 100%;
+text-align: center;
+}
+p {
+  font-family: Geoger;
+  font-size: 23px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #007aff;
+   color: white;
+   text-align: center;
+}
+.press{
+    
+    position: absolute;
+    top: 280px;
+    left: 680px;
+}

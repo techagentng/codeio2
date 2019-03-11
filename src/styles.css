@@ -1,4 +1,7 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body{
+    background-color: #e7ecf0;
 }
+.imgCont{
+    display: flex;
+}
+
