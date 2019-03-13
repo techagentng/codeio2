@@ -1,16 +1,51 @@
-import React, { Component } from 'react';
-import { link } from 'react-router-dom'
-//import { Jumbotron, Grid, Button, Image, Row, Col} from 'react-bootstrap'
-import './about.css'
+import React, { Component } from "react";
+import { link } from "react-router-dom";
+import { Jumbotron, Button, Image, Row, Col } from "react-bootstrap";
+import { Grid, Paper } from "@material-ui/core";
+import "./about.css";
 
-export default class About extends Component {
-   
-  render() {
-    return(
+const styles = {
+    Paper: { padding: 40, marginTop: 10, marginBottom: 10, height: 220 }
+};
+
+export default props => (
     <div>
-        <h1>About page</h1>   
+        <Grid className="containerAbout">
+            <div class="item">
+                <Paper style={styles.Paper}>
+                    <h1>ABOUT</h1>
+                </Paper>
+            </div>
+        </Grid>
+        
+        <div className="containerConatct">
+            <div className="item">
+              <Paper style={styles.paper}>
+                <h1>2222222</h1>
+              </Paper>
+            </div>
+            
+            <div className="item">
+              <Paper style={styles.paper}>
+                <h1>2222222</h1>
+              </Paper>
+            </div >
+           
+        </div>
+        
+        <div className="containerConatct">
+            <div className="item">
+              <Paper style={styles.paper}>
+                <h1>2222222</h1>
+              </Paper>
+            </div>
+            
+            <div className="item">
+              <Paper style={styles.paper}>
+                <h1>2222222</h1>
+              </Paper>
+            </div >
+           
+        </div>
     </div>
-    ) 
-  
-  }
-}
+);

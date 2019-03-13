@@ -21,13 +21,11 @@ export default class App extends Component {
        <div>
         <Navbar />
          <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
+        <Route path="/About" component={About}/>
         <Route path="/services" component={Services}/>
         <Route path="/vacancies" component={Vacancies}/>
         <Route path="/contact" component={Contact}/>
          <Footer />
-        <Footer />
-        <Footer />
        </div>
   
     </Router>

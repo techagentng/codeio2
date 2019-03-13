@@ -27,7 +27,7 @@ text-align: center;
 }
 p {
   font-family: Geoger;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .footer {
@@ -38,10 +38,74 @@ p {
    background-color: #007aff;
    color: white;
    text-align: center;
+        
 }
 .press{
     
     position: absolute;
-    top: 280px;
-    left: 680px;
+    top: 403px;
+    left: 650px;
 }
+.custom-btn {
+  background: #f06aa7;
+  color: red;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.sImage{
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.test{
+    margin-top: 60px;
+}
+.containerAbout{
+  margin-top: 65px;
+  justify-items: center;
+  display: block;
+  border: 0px solid rgba(114, 186, 94, 0.35);
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background: rgba(114, 186, 94, 0.05);
+
+}
+.containerAbout h1{
+padding-top: 40px;
+  text-align: center;
+}
+
+.item{
+    min-height: 0;
+    min-width: 0;
+    overflow: visible; 
+}
+.singleCol{
+    display: grid;
+    grid-auto-columns: 1fr;
+    margin-top: 55px;
+    padding: 10px 20px 10px 20px;
+}
+
+.containerConatct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    padding: 0px 20px 0px 20px;
+    
+}
+.contact12 h1{
+    text-align: center;
+   padding: 0px 20px 0px 20px;
+}
+
+.contact12{
+    margin-top: 59px 
+}
+.pad{
+    padding: 20px;
+}
+
